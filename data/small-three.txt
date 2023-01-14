@@ -1,0 +1,4 @@
+Rating,Professor Gender,Comment Text
+3.0,M,average average average
+5.0,W,best best best
+1.0,M,not best not average

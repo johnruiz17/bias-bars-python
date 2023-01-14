@@ -1,0 +1,4 @@
+Rating,Professor Gender,Comment Text
+5.0,M,mehran sahami what stanford is all about
+4.5,W,she is a great professor and is very knowledgeable
+1.0,M,terrible aim his candy throwing needs to improve

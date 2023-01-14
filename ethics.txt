@@ -1,0 +1,94 @@
+Ethics Questions
+
+
+1. Plot a few "neutral" words such as class, the, and teach. What do you see? Now plot a few more "loaded" words
+(thick normative terms) to investigate potential biases in the dataset. Possible examples: funny, rude,
+professor, teacher, mean, fair, unfair, genius, brilliant. What do you see? Include at least three "loaded" words
+and their corresponding frequencies for men and women for the high, medium, and low groups in your ethics.txt file.
+
+I noticed that when I typed in the word 'teacher' there was a higher frequency of that word for women across all
+review levels. When I typed in 'professor,' however, the frequency of that word was used far more often for male
+instructors than for female instructors. Based on this, there is a clear disparity between how students view their
+male and female instructors as evidenced by the words they use to describe them.
+
+
+
+2. Based on the definition of bias presented in class on Monday, May 16th:
+Do the summary statistics you produced in Milestone 1 (that is, percentage of reviews by gender that are high)
+suggest that high ratings are biased by gender or not?
+Which of the words you plotted in the first question of this milestone show a gendered bias?
+
+The statistic I produced in Milestone 1 showed that 58% of female instructors received high reviews,
+while 59% of male instructors received high reviews. This disparity does not seem that significant, but does not tell
+the full story. These statistic do not seem to support that ratings are based by gender. However, when I typed in the
+word 'genius' a startling difference in distribution becomes apparent. Male instructors are far more likely to be
+described as a genius than female instructors across all review levels.
+
+
+
+3. Based on the definitions of fairness presented in class, under what conditions (that could be observed from a
+dataset like this) would it be unfair for a university to use either the ratings or the prevalence of particular words
+(such as brilliant or genius) as a factor in decisions to hire, tenure, or fire professors?
+Assume the universities are using end-of-term student evaluations written by their own students,
+which might have different distributions.
+
+Taking into consideration the gender-based biases that this program reveals, it would not be fair for instructors
+to be hired, fired, or given tenure based solely on the prevalence of particular words in a dataset of student reviews.
+Such a metric would be skewed by the deep-seated unconscious biases that this data analysis visually presents. If
+universities would to use the frequency of those loaded terms as a metric to make such important decisions, the
+outcomes would reflect the skewed distribution of words like 'brilliant' or 'genius.'
+
+
+
+4. What kind of information do the subjects represented in a dataset (in this case, professors)
+deserve to know about the trends in the data? How could you as the programmer provide this information?
+
+For this program, the subjects should know that the overall trends that are plotted based on the word that the user
+types in are displayed after the program analyzes a large dataset consisting of about 20, 000
+professor ratings and written reviews. While this dataset does not include all the reviews from ratemyprofessors.com,
+it does provide some valuable insights about the trend of words in reviews of male and female professors. One way that
+we could communicate this is by including a footnote in the graph that displays the number of datapoints that
+were analyzed in order to plot the data.
+
+
+
+5. In class, we discussed problems of underrepresentation and "long tails" in data science.
+Although the data we gave you has not been edited other than to remove punctuation, our visualization focuses
+on average scores and commonly used words. What kinds of interactions between students and teachers, both positive
+and negative, might be uncommon or not well represented by this dataset but important? For example,
+how might underrepresented students' positive experiences of underrepresented teachers appear or
+not appear in this dataset?
+
+The origin of these datasets is something that is worth considering. What is the demographic of student's who tend to
+use ratemyprofessors.com? When most college students in the United States are not students of color, does this kind of
+website tell the full story? Presently, this program has no way of telling us how students of color responds to
+professors who are also people of color and what kinds of words they use to describe these professors who may be
+from a similar background than the student is.
+
+
+
+6. In this assignment, we asked you, "does a professor's gender influence the language people use to describe them?"
+That is an important question, and we haven't given you the right kind of data to fully answer it: the dataset
+presents a binary classification of gender based on students' beliefs as to the gender of the professor.
+There are some people in the dataset whose gender is misdescribed, and others, such as non-binary people,
+who do not have a category that fits them at all. If you could design the ratings website, how might you change or
+remove categories to address this problem?
+
+I would include more than two options for professors to identify their gender. This would allow for more representation
+and provide more areas to explore in a data analysis program such as this one, potentially providing even more
+insights about gender biases.
+
+
+
+7. In 106A, we create clearly-defined assignments for you to work on. We tell you what to do at each step
+and what counts as success at the end. In other words, we are formulating problems for you to solve. As we
+discussed in class, however, problem formulation is one of the ways in which your choices as a computer scientist
+embed values. Formulate a different problem related to the topics of professor evaluation or visualization of
+gendered patterns in language use, ideally one you could solve with your current skills. Explain why and for whom
+it would be good to solve that problem.
+
+There are still many questions that can be explored using the skills that I have gained in this class. One potential
+project would be to analyze how professors are rated and what words are associated with their reviews  not only based
+on gender but on other factors such as race, location, or public vs private universities. Such a program would help
+reify gender and racial biases by making these biases easy to visualize and understand.
+
