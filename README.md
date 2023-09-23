@@ -1,4 +1,4 @@
-# cs-106a-assignment-6-bias-bars
+# bias-bars
 
 run this command in the "biasbars.py" file:
 python3 biasbars.py
